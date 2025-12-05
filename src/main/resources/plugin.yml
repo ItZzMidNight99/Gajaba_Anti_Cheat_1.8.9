@@ -1,0 +1,23 @@
+name: Region-Teleport
+version: '1.0.0'
+main: lk.cwresport.RegionTeleport.RegionTeleporter
+api-version: '1.18'
+prefix: [ Region Teleporter ]
+load: STARTUP
+authors: [ ItZzMidNight99, Mr_Unkown, Lobo_Wolf ]
+description: A Plugin Which Allows to teleport players to a specific Targeted Location
+website: cwresports.lk
+
+
+
+
+command:
+  TeleportToRegion:
+    description : Teleport the player to the given location
+    usage: /region-teleport @a <region name>
+
+
+permission:
+  cwr-core.region-teleport.admin:
+    description: Allows to tp every player to the targeted location
+    default: op
