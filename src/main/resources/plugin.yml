@@ -1,0 +1,17 @@
+name: GajabaLegacy
+version: 2.0.0
+main: dev.gajaba.anticheat.GajabaLegacy
+author: Gajaba
+description: 1.8.9 staff hack-test plugin with timed verdict sessions
+commands:
+  hacktest:
+    aliases: [ht, test]
+    description: Start/stop timed hack tests
+    usage: /hacktest <test|use|stop> <player>
+permissions:
+  gajaba.staff:
+    description: Staff permission for hack test and alerts
+    default: op
+  gajaba.bypass:
+    description: Bypass checks and autopunish
+    default: op
